@@ -9,7 +9,7 @@ let Ghazi = {
   theLevel: "Senior",
   imgURL: "https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   uniqueID: creatingID(),
-  mainSalary: calculateSalary("Senior")
+  mainSalary: Math.trunc(calculateSalary("Senior"))
 };
 let Lana = {
   fullName: "Lana Ali",
@@ -17,7 +17,7 @@ let Lana = {
   theLevel: "Senior",
   imgURL: "https://images.pexels.com/photos/5997309/pexels-photo-5997309.jpeg?auto=compress&cs=tinysrgb&w=1600",
   uniqueID: creatingID(),
-  mainSalary: calculateSalary("Senior")
+  mainSalary: Math.trunc(calculateSalary("Senior"))
 };
 let Tamara = {
   fullName: "Tamara Ayoub",
@@ -25,7 +25,7 @@ let Tamara = {
   theLevel: "Senior",
   imgURL: "https://images.pexels.com/photos/16765737/pexels-photo-16765737/free-photo-of-woman-in-coat-taking-pictures-with-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   uniqueID: creatingID(),
-  mainSalary: calculateSalary("Senior")
+  mainSalary: Math.trunc(calculateSalary("Senior"))
 };
 let Safi = {
   fullName: "Safi Walid",
@@ -33,7 +33,7 @@ let Safi = {
   theLevel: "Mid-Senior",
   imgURL: "https://images.pexels.com/photos/3799115/pexels-photo-3799115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   uniqueID: creatingID(),
-  mainSalary: calculateSalary("Mid-Senior")
+  mainSalary: Math.trunc(calculateSalary("Mid-Senior"))
 };
 let Omar = {
   fullName: "Omar Zaid",
@@ -41,7 +41,7 @@ let Omar = {
   theLevel: "Senior",
   imgURL: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   uniqueID: creatingID(),
-  mainSalary: calculateSalary("Senior")
+  mainSalary: Math.trunc(calculateSalary("Senior"))
 };
 let Rana = {
   fullName: "Rana Ahmad",
@@ -49,7 +49,7 @@ let Rana = {
   theLevel: "Junior",
   imgURL: "https://images.pexels.com/photos/8550497/pexels-photo-8550497.jpeg?auto=compress&cs=tinysrgb&w=1600",
   uniqueID: creatingID(),
-  mainSalary: calculateSalary("Junior")
+  mainSalary: Math.trunc(calculateSalary("Junior"))
 };
 let Hadi = {
   fullName: "Hadi Ahmad",
@@ -57,7 +57,7 @@ let Hadi = {
   theLevel: "Mid-Senior",
   imgURL: "https://images.pexels.com/photos/4195342/pexels-photo-4195342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   uniqueID: creatingID(),
-  mainSalary: calculateSalary("Mid-Senior")
+  mainSalary: Math.trunc(calculateSalary("Mid-Senior"))
 };
 
 
