@@ -122,4 +122,4 @@ renderMethod.innerHTML = `Employee name: ${Hadi.fullName},<br> Employee salary: 
 
 
 
-}
+
