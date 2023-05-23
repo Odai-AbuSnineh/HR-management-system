@@ -6,7 +6,7 @@ function creatingID() {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-// Replace all object literals for the HR-management-system with a single constructor function.
+// 1.Replace all object literals for the HR-management-system with a single constructor function.
 
 const allEmployee = [];
 
@@ -36,7 +36,7 @@ let Hadi = new Employee("Hadi Ahmad", "Finance", "Mid-Senior", "./assets/employe
 
 console.log(allEmployee);
 
-
+// 3.keeping the methods that are responsible for generating employeeID and calculating the salary.
 Employee.prototype.calculateSalary = function () {
 
   let minSalary, maxSalary;
@@ -65,11 +65,11 @@ Employee.prototype.calculateSalary = function () {
 for (let i = 0; i < allEmployee.length; i++) {
   allEmployee[i].mainSalary();
 }
-
+// 2.Refactoring the render method to be a prototype method to render each employee name, department, and employee salary
 
 Employee.prototype.renderEmployees = function () {
 
-  document.write(`<p>${this.uniqueID} Employee name: ${this.name} </p>`)
+  document.write(`<p> Employee name: ${this.name} </p>`)
   document.write(`<p> Department: ${this.department} </p>`)
   document.write(`<p> Employee salary: ${Math.trunc(this.finalSalary)} </p><br>`)
 

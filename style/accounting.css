@@ -11,7 +11,7 @@ header {
   position: relative;
   align-content: stretch;
   background-color: #113459;
-  height: 20vh;
+  height: 15vh;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -68,7 +68,7 @@ color:white;}
 /* main*/
 main {
   background-color: #76d7ef;
-  height: 70vh;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
